@@ -1,0 +1,34 @@
+  <table class="table">
+          <thead>
+          <tr>
+            <th>Old</th>
+            <th>New</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th>{{userModal.firstNane}}</th>
+            <th><input type="text" placeholder ={{userModal.firstNane}}> </th>
+          </tr>
+          <tr>
+            <th>{{userModal.lastName}}</th>
+            <th><input type="text"> </th>
+          </tr>
+          <tr>
+            <th>{{userModal.age}}</th>
+            <th><input type="number"> </th>
+          </tr>
+          <tr>
+            <th>{{userModal.sex}}</th>
+            <th><select type="text">
+              <option>man</option>
+              <option>female</option>
+            </select>
+            </th>
+          </tr>
+          <tr>
+            <th>{{userModal.mail}}</th>
+            <th><input type="text"> </th>
+          </tr>
+          </tbody>
+        </table>
